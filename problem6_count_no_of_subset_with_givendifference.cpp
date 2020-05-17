@@ -54,5 +54,4 @@ int main()
 	cout<<dp[n][sum];
 	
 	return 0;
-	
 }
