@@ -30,7 +30,7 @@ int main()
 		for(int j=1;j<wt+1;j++)
 		{
 			if(w[i-1]<=j)
-				dp[i][j]=MAXIMUM((v[i-1]+dp[i-1][j-w[i-1]]),dp[i-1][j]);
+				dp[i][j]=MAXIMUM((v[i-1]+dp[i][j-w[i-1]]),dp[i-1][j]);
 			else
 				dp[i][j]=dp[i-1][j];
 		}
