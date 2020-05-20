@@ -12,9 +12,8 @@ int main()
 	for(int i=0;i<m+1;i++)
 	dp[i][0]=0;
 	for(int i=0;i<n+1;i++)
-	{
 	dp[0][i]=0;
-	}
+	
 	for(int i=1;i<m+1;i++)
 	{
 		for(int j=1;j<n+1;j++)
