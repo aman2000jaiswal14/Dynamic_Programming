@@ -24,6 +24,7 @@ int main()
 	for(int i=0;i<wt+1;i++)
 		dp[0][i]=0;
 	
+ 
 //	MAIN CODE
 	for(int i=1;i<n+1;i++)	
 	{	
