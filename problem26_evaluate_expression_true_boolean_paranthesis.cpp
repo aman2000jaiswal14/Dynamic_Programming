@@ -5,6 +5,7 @@ using namespace std;
 int toint(char c)
 {return int(c)-48;
 }
+
 int solve(string s,int i,int j,int istrue)
 {
 	if(i>j)
